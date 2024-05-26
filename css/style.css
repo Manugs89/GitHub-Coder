@@ -248,3 +248,64 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+.grid-experiencia {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, auto);
+    gap: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.grid-experiencia section {
+    display: contents;
+}
+
+.grid-experiencia img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-experiencia p {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Odd rows: image on the left */
+.grid-experiencia .experiencia1 img,
+.grid-experiencia .experiencia3 img,
+.grid-experiencia .experiencia5 img {
+    grid-column: 1 / 2;
+}
+
+.grid-experiencia .experiencia1 p,
+.grid-experiencia .experiencia3 p,
+.grid-experiencia .experiencia5 p {
+    grid-column: 2 / 7;
+}
+
+/* Even rows: image on the right */
+.grid-experiencia .experiencia2 img,
+.grid-experiencia .experiencia4 img {
+    grid-column: 6 / 7;
+}
+
+.grid-experiencia .experiencia2 p,
+.grid-experiencia .experiencia4 p {
+    grid-column: 1 / 6;
+}
+
+.grid-experiencia .experiencia2 img {
+    grid-row: 2 /3;
+}
+
+.grid-experiencia .experiencia4 img {
+    grid-row: 4 / 6;
+}
+
+.grid-experiencia .experiencia5 img {
+    grid-row: 6 / 7;
+}
