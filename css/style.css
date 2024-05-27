@@ -309,3 +309,6 @@ button:hover {
 .grid-experiencia .experiencia5 img {
     grid-row: 6 / 7;
 }
+.grid-experiencia .experiencia4 p {
+    grid-row: 4 / 6;
+}
