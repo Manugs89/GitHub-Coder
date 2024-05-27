@@ -101,10 +101,14 @@ nav ul li {
     grid-template-columns:repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align:justify;
     padding: 10px;
     row-gap: 15px;
+}
+
+.grid-container h2 {
+    color: black;
 }
 
 .p-skills1, .p-skills2, .p-skills3 {
@@ -123,7 +127,11 @@ nav ul li {
 
 .section1{
 display: grid;
-background-color: red;
+color: black;
+padding: 10px;
+background-color: white;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 grid-column: 1/4;
 }
 
@@ -133,7 +141,11 @@ width:30%;
 
 .section2{
     display: grid;
-    background-color:green;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     grid-column: 1/4;
 }
 
@@ -143,7 +155,11 @@ width:30%;
 
 .section3 {
     display: grid;
-    background-color: blue;
+    padding: 10px;
+    color:black;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     grid-column: 1/4;
 }
 
@@ -255,7 +271,7 @@ button:hover {
     grid-template-rows: repeat(6, auto);
     gap: 20px;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color:none;
 }
 
 .grid-experiencia section {
