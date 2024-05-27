@@ -64,6 +64,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #333;
+    padding: 10px;
 }
 
 .boton-mail, .boton-linkedin {
@@ -85,11 +87,19 @@ nav {
 
 nav ul {
     display: flex;
-    margin-right: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
     margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
 }
 
 .imagen-index{
@@ -327,4 +337,47 @@ button:hover {
 }
 .grid-experiencia .experiencia4 p {
     grid-row: 4 / 6;
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        text-align: center;
+        background-color: #333; 
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+
+    .menu-icon {
+        display: block; 
+    }
+
+    .boton {
+        display:flex;
+    }
+}
+
+.menu-container {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon {
+    width: 30px; 
+    height: auto;
+    cursor: pointer;
+    display:flex; 
+}
+
+.boton {
+    display: none;
 }
