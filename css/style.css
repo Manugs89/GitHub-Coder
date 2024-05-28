@@ -300,7 +300,6 @@ button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Odd rows: image on the left */
 .grid-experiencia .experiencia1 img,
 .grid-experiencia .experiencia3 img,
 .grid-experiencia .experiencia5 img {
@@ -313,7 +312,6 @@ button:hover {
     grid-column: 2 / 7;
 }
 
-/* Even rows: image on the right */
 .grid-experiencia .experiencia2 img,
 .grid-experiencia .experiencia4 img {
     grid-column: 6 / 7;
@@ -369,6 +367,7 @@ button:hover {
 .menu-container {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .menu-icon {
@@ -381,3 +380,8 @@ button:hover {
 .boton {
     display: none;
 }
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+background-color: #b9b629;
+}
+
