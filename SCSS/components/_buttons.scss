@@ -1,0 +1,15 @@
+.boton, .boton-mail, .boton-linkedin {
+    display: block;
+    cursor: pointer;
+    background-color: $background-color;
+    color: $text-color;
+    border: $text-color;
+    padding: 10px 20px;
+    border-radius: $border-radius;
+    font-size: 16px;
+    @include transition(background-color);
+
+    &:hover {
+        background-color: $secondary-color;
+    }
+}
