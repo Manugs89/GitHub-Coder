@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      display: none;
+      width: 100%;
+      text-align: center;
+      background-color: #333;
+  
+      &.active {
+        display: flex;
+      }
+    }
+  
+    nav li {
+      margin: 10px 0;
+    }
+  
+    .menu-icon {
+      display: block;
+      position: fixed;
+      right: 3%;
+      width: 30px;
+      height: auto;
+      cursor: pointer;
+    }
+  
+    .menu-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-left: auto;
+    }
+  }
+  

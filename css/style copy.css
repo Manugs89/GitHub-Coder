@@ -72,7 +72,7 @@ p {
     align-items: center;
     background-color: #333;
     padding: 10px;
-    flex-grow: 1; /* Asegura que el espacio se distribuya correctamente */
+    flex-grow: 1; 
   }
   
   nav ul {
@@ -82,7 +82,7 @@ p {
     padding: 0;
     justify-content: center;
     align-items: center;
-    width: 100%; /* Asegura que el <ul> ocupe todo el ancho disponible */
+    width: 100%; 
   }
   
   nav ul li {
@@ -353,14 +353,14 @@ p {
   @media (max-width: 768px) {
     nav ul {
       flex-direction: column;
-      display: none; /* Ocultar el menú */
+      display: none; 
       width: 100%;
       text-align: center;
       background-color: #333;
     }
   
     nav ul.active {
-      display: flex; /* Mostrar el menú cuando se activa */
+      display: flex; 
     }
   
     nav li {
@@ -400,4 +400,3 @@ p {
   .carousel-control-next:hover {
     background-color: #b9b629;
   }
-

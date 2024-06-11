@@ -1,0 +1,19 @@
+p,
+h1,
+h4,
+h2,
+header {
+  font-family: $font-stack;
+}
+
+h1 {
+  font-size: larger;
+  background-color: black;
+  color: $secondary-color;
+}
+
+h2 {
+  color: $secondary-color;
+  font-size: medium;
+  text-align: justify;
+}

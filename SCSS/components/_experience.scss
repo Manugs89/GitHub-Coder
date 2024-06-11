@@ -1,0 +1,66 @@
+.grid-experiencia {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, auto);
+    gap: 20px;
+    padding: 20px;
+    background-color: none;
+  
+    section {
+      display: contents;
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+  
+    p {
+      padding: 10px;
+      background-color: white;
+      color: black;
+      align-items: center;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      grid-column: 1 / -1; 
+    }
+  
+    .experiencia1 img,
+    .experiencia3 img,
+    .experiencia5 img {
+      grid-column: 1 / 2; 
+    }
+  
+    .experiencia1 p,
+    .experiencia3 p,
+    .experiencia5 p {
+      grid-column: 2 / 7; 
+    }
+  
+    .experiencia2 img,
+    .experiencia4 img {
+      grid-column: 6 / 7; 
+    }
+  
+    .experiencia2 p,
+    .experiencia4 p {
+      grid-column: 1 / 6; 
+    }
+  
+    .experiencia2 img {
+      grid-row: 2 / 3; 
+    }
+  
+    .experiencia4 img {
+      grid-row: 4 / 6; 
+    }
+  
+    .experiencia5 img {
+      grid-row: 6 / 7; 
+    }
+  
+    .experiencia4 p {
+      grid-row: 4 / 6; 
+    }
+  }
