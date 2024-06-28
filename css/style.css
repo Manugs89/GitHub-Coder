@@ -270,15 +270,13 @@ footer p {
 
 .botones-contacto a {
   display: block;
-  width: 300px;
   text-align: center;
   padding: 15px;
-  margin: 10px 0;
-  margin-left: 310px;
+  margin: 10px 200px 10px 200px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 5px;
   background-color: #010101;
 }
 .botones-contacto a:hover {
