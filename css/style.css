@@ -1,3 +1,4 @@
+@charset "UTF-8";
 p,
 h1,
 h4,
@@ -16,10 +17,16 @@ h2 {
   color: #fff;
   font-size: medium;
   text-align: justify;
+  background-color: white;
+  opacity: 80%;
+  border-radius: 5%;
 }
 
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 
 h1 {
@@ -39,8 +46,9 @@ h4 {
 
 h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #fff;
+  color: #000000;
   font-size: medium;
+  padding: 5%;
   text-align: justify;
 }
 
@@ -161,41 +169,6 @@ ul {
   width: 30%;
 }
 
-.grid-container-about {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  background-color: #333;
-  color: #fff;
-  text-align: justify;
-  padding: 10px;
-  gap: 15px;
-}
-
-.section1-about {
-  display: grid;
-  grid-column: 1/5;
-  grid-row: 1/3;
-}
-
-.p-about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  grid-column: 1/3;
-  margin-right: 15px;
-}
-
-.section2-about {
-  grid-column: 1/3;
-  grid-row: 3/5;
-}
-
-.section3-about {
-  grid-column: 3/5;
-  grid-row: 3/5;
-}
-
 form {
   background-color: #a39d9d;
   font-family: Arial, Helvetica, sans-serif;
@@ -244,7 +217,7 @@ button {
 }
 
 button:hover {
-  background-color: #b9b629;
+  background-color: #f6ef2a;
 }
 
 .menu-container {
@@ -258,11 +231,6 @@ button:hover {
   display: none;
 }
 
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-  background-color: #b9b629;
-}
-
 footer {
   width: 95%;
   display: flex;
@@ -270,11 +238,14 @@ footer {
   justify-content: space-between;
   flex-wrap: nowrap;
 }
+footer p {
+  color: white;
+}
 
 .boton {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   cursor: pointer;
   background-color: #010101;
   color: #fff;
@@ -286,7 +257,7 @@ footer {
   margin-right: 40px;
 }
 .boton:hover {
-  background-color: #b9b629;
+  background-color: #f9de2c;
 }
 
 .menu-icon {
@@ -299,10 +270,11 @@ footer {
 
 .botones-contacto a {
   display: block;
-  width: 250px;
+  width: 300px;
   text-align: center;
   padding: 15px;
   margin: 10px 0;
+  margin-left: 310px;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -310,13 +282,13 @@ footer {
   background-color: #010101;
 }
 .botones-contacto a:hover {
-  background-color: #b9b629;
+  background-color: #f9de2c;
 }
 
 form {
   width: 63%;
   margin: auto;
-  background-color: #a39d9d;
+  background-color: #e9bf0a;
   font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
   border-radius: 8px;
@@ -360,12 +332,13 @@ button {
   margin-top: 10px;
 }
 button:hover {
-  background-color: #b9b629;
+  background-color: #f9de2c;
 }
 
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
-  background-color: #b9b629;
+  background-color: #55544f;
+  opacity: 50%;
 }
 
 .grid-experiencia {
@@ -389,9 +362,11 @@ button:hover {
   background-color: white;
   color: black;
   align-items: center;
+  opacity: 80%;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   grid-column: 1/-1;
+  margin: 5%;
 }
 .grid-experiencia .experiencia1 img,
 .grid-experiencia .experiencia3 img,
@@ -476,7 +451,7 @@ nav a {
   padding: 5px 10px;
 }
 nav a:hover {
-  color: #b9b629;
+  color: #f9de2c;
 }
 
 .grid-container {
@@ -498,7 +473,7 @@ nav a:hover {
 .p-skills3 {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   grid-column: 1/3;
   flex-direction: column;
   margin-left: 45px;
@@ -508,8 +483,8 @@ nav a:hover {
 .img-skills2,
 .img-skills3 {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
+  align-items: left;
   grid-column: 3/4;
 }
 
@@ -521,12 +496,13 @@ nav a:hover {
   padding: 10px;
   background-color: white;
   border-radius: 5px;
+  opacity: 80%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   grid-column: 1/4;
 }
-.section1 img,
-.section2 img,
-.section3 img {
+.section1 ∫ img,
+.section2 ∫ img,
+.section3 ∫ img {
   width: 30%;
 }
 
@@ -558,18 +534,22 @@ nav a:hover {
 .p-about {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   flex-direction: column;
   justify-content: center;
   grid-column: 1/3;
+  align-items: baseline;
+  opacity: 80%;
   margin-right: 15px;
+  background-color: white;
+  border-radius: 5%;
 }
 
 .img-about {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  grid-column: 4/5;
+  grid-column: 3/5;
 }
 .img-about img {
   max-width: 1500px;
@@ -578,12 +558,7 @@ nav a:hover {
 }
 
 .section2-about {
-  grid-column: 1/3;
-  grid-row: 3/5;
-}
-
-.section3-about {
-  grid-column: 3/5;
+  grid-column: 1/5;
   grid-row: 3/5;
 }
 
@@ -591,7 +566,6 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-items: center;
 }
 
 .loader {

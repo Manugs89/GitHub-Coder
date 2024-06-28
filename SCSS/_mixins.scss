@@ -1,7 +1,7 @@
 @mixin flex-center {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
   }
   
   @mixin shadow($color: rgba(0,0,0,0.1)) {
